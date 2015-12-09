@@ -6,7 +6,7 @@
     "name": "GetDefine",
     "group": "Define",
     "version": "0.8.0",
-    "description": "<p>Example of @apiDefine and @apiUse</p> ",
+    "description": "Example of @apiDefine and @apiUse",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -14,19 +14,19 @@
             "group": "Parameter",
             "optional": false,
             "field": "field3",
-            "description": "<p>This is Field 3 (local).</p> "
+            "description": "This is Field 3 (local)."
           },
           {
             "group": "Parameter",
             "optional": false,
             "field": "field1",
-            "description": "<p>This is Field 1.</p> "
+            "description": "This is Field 1."
           },
           {
             "group": "Parameter",
             "optional": false,
             "field": "field2",
-            "description": "<p>This is Field 2.</p> "
+            "description": "This is Field 2."
           }
         ]
       }
@@ -46,7 +46,7 @@
     "name": "GetEscape",
     "group": "Escape",
     "version": "0.6.0",
-    "description": "<p>Escape Example data.</p> ",
+    "description": "Escape Example data.",
     "examples": [
       {
         "title": "Example usage:",
@@ -78,7 +78,7 @@
     "name": "GetEscape",
     "group": "Escape",
     "version": "0.5.0",
-    "description": "<p>Escape Example data - with comparison.</p> ",
+    "description": "Escape Example data - with comparison.",
     "examples": [
       {
         "title": "Example usage:",
@@ -110,7 +110,7 @@
     "name": "GetExample",
     "group": "Example",
     "version": "0.7.1",
-    "description": "<p>Extended usage of @apiExample with different example types.</p> ",
+    "description": "Extended usage of @apiExample with different example types.",
     "examples": [
       {
         "title": "PHP Example (new)",
@@ -166,7 +166,7 @@
     "name": "GetExample",
     "group": "Example",
     "version": "0.7.0",
-    "description": "<p>Extended usage of @apiExample with different example types.</p> ",
+    "description": "Extended usage of @apiExample with different example types.",
     "examples": [
       {
         "title": "PHP Example",
@@ -224,7 +224,7 @@
     "version": "0.5.0",
     "filename": "src/api_group.js",
     "groupTitle": "Group Title",
-    "groupDescription": "<p>This is a Group Description. It is <strong>Markdown</strong> capable.</p> ",
+    "groupDescription": "This is a Group Description. It is <strong>Markdown</strong> capable.",
     "sampleRequest": [
       {
         "url": "https://api.github.com/v1/group/:id"
@@ -238,7 +238,7 @@
     "name": "GetGrouping",
     "group": "Grouping",
     "version": "0.1.0",
-    "description": "<p>Title and Grouping of param, success and error</p> ",
+    "description": "Title and Grouping of param, success and error",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -247,7 +247,7 @@
             "type": "String",
             "optional": false,
             "field": "param1",
-            "description": "<p>No Group, automatically set Group to &quot;Parameter&quot;</p> "
+            "description": "No Group, automatically set Group to &quot;Parameter&quot;"
           }
         ],
         "Replace \"login\" with this text.": [
@@ -256,7 +256,7 @@
             "type": "String",
             "optional": false,
             "field": "param2",
-            "description": "<p>Group &quot;login&quot;</p> "
+            "description": "Group &quot;login&quot;"
           },
           {
             "group": "login",
@@ -264,7 +264,7 @@
             "optional": false,
             "field": "param3",
             "defaultValue": "Default Value",
-            "description": "<p>Group &quot;login&quot; with default Value</p> "
+            "description": "Group &quot;login&quot; with default Value"
           }
         ]
       }
@@ -277,7 +277,7 @@
             "type": "String",
             "optional": false,
             "field": "success2",
-            "description": "<p>Group &quot;201&quot;</p> "
+            "description": "Group &quot;201&quot;"
           },
           {
             "group": "201",
@@ -285,7 +285,7 @@
             "optional": false,
             "field": "success3",
             "defaultValue": "Default Value",
-            "description": "<p>Group &quot;201&quot; with default Value</p> "
+            "description": "Group &quot;201&quot; with default Value"
           }
         ],
         "Success 200": [
@@ -294,7 +294,7 @@
             "type": "String",
             "optional": false,
             "field": "success1",
-            "description": "<p>No Group, automatically set &quot;Success 200&quot;</p> "
+            "description": "No Group, automatically set &quot;Success 200&quot;"
           }
         ]
       }
@@ -307,7 +307,7 @@
             "type": "String",
             "optional": false,
             "field": "error2",
-            "description": "<p>Undefined Group &quot;400&quot;</p> "
+            "description": "Undefined Group &quot;400&quot;"
           }
         ],
         "401 - Oh oh, replace \"401\" with this text": [
@@ -316,7 +316,7 @@
             "type": "String",
             "optional": false,
             "field": "error3",
-            "description": "<p>Group &quot;401&quot;</p> "
+            "description": "Group &quot;401&quot;"
           }
         ],
         "Error 4xx": [
@@ -325,7 +325,7 @@
             "type": "String",
             "optional": false,
             "field": "error1",
-            "description": "<p>No Group automatically set &quot;Error 4xx&quot;</p> "
+            "description": "No Group automatically set &quot;Error 4xx&quot;"
           }
         ]
       }
@@ -345,7 +345,7 @@
     "name": "GetHeader",
     "group": "Header",
     "version": "0.5.0",
-    "description": "<p>Test for @apiHeader (same as @apiParam)</p> ",
+    "description": "Test for @apiHeader (same as @apiParam)",
     "header": {
       "fields": {
         "Header": [
@@ -354,7 +354,7 @@
             "type": "String",
             "optional": false,
             "field": "header1",
-            "description": "<p>Parameter with type and description.</p> "
+            "description": "Parameter with type and description."
           },
           {
             "group": "Header",
@@ -369,7 +369,7 @@
             "optional": false,
             "field": "header3",
             "defaultValue": "Default Value",
-            "description": "<p>Parameter with type, description and default value.</p> "
+            "description": "Parameter with type, description and default value."
           },
           {
             "group": "Header",
@@ -383,7 +383,7 @@
             "group": "Header",
             "optional": false,
             "field": "header5",
-            "description": "<p>Basic Parameter with description.</p> "
+            "description": "Basic Parameter with description."
           },
           {
             "group": "Header",
@@ -396,7 +396,7 @@
             "optional": false,
             "field": "header7",
             "defaultValue": "Default Value",
-            "description": "<p>Basic Parameter with description and default value.</p> "
+            "description": "Basic Parameter with description and default value."
           },
           {
             "group": "Header",
@@ -409,7 +409,7 @@
             "group": "Header",
             "optional": true,
             "field": "header9",
-            "description": "<p>Optional basic Parameter with description.</p> "
+            "description": "Optional basic Parameter with description."
           },
           {
             "group": "Header",
@@ -422,7 +422,7 @@
             "optional": true,
             "field": "header11",
             "defaultValue": "Default Value",
-            "description": "<p>Optional basic Parameter with description and default value.</p> "
+            "description": "Optional basic Parameter with description and default value."
           },
           {
             "group": "Header",
@@ -436,7 +436,7 @@
             "type": "String",
             "optional": true,
             "field": "header13",
-            "description": "<p>Optional Parameter with type and description.</p> "
+            "description": "Optional Parameter with type and description."
           },
           {
             "group": "Header",
@@ -451,7 +451,7 @@
             "optional": true,
             "field": "header15",
             "defaultValue": "Default Value",
-            "description": "<p>Optional Parameter with type, description and default value.</p> "
+            "description": "Optional Parameter with type, description and default value."
           },
           {
             "group": "Header",
@@ -479,7 +479,7 @@
     "name": "GetHeaderExample",
     "group": "Header",
     "version": "0.5.0",
-    "description": "<p>Usage of @headerExample.</p> ",
+    "description": "Usage of @headerExample.",
     "header": {
       "examples": [
         {
@@ -504,7 +504,7 @@
     "name": "GetLanguageClojure",
     "group": "Language",
     "version": "0.4.0",
-    "description": "<p>Test for Clojure Comment-Syntax.</p> ",
+    "description": "Test for Clojure Comment-Syntax.",
     "filename": "src/language.clj",
     "groupTitle": "Language",
     "sampleRequest": [
@@ -542,7 +542,7 @@
     "name": "GetLanguageCoffeeScript",
     "group": "Language",
     "version": "0.4.0",
-    "description": "<p>Test for CoffeeScript Comment-Syntax.</p> ",
+    "description": "Test for CoffeeScript Comment-Syntax.",
     "filename": "src/language.coffee",
     "groupTitle": "Language",
     "sampleRequest": [
@@ -602,7 +602,7 @@
     "name": "GetLanguageErlang",
     "group": "Language",
     "version": "0.4.0",
-    "description": "<p>Test for Erlang Comment-Syntax.</p> ",
+    "description": "Test for Erlang Comment-Syntax.",
     "filename": "src/language.erl",
     "groupTitle": "Language",
     "sampleRequest": [
@@ -662,7 +662,7 @@
     "name": "GetLanguageJavaScript",
     "group": "Language",
     "version": "0.4.0",
-    "description": "<p>Test for JavaScript Comment-Syntax.</p> ",
+    "description": "Test for JavaScript Comment-Syntax.",
     "filename": "src/language.js",
     "groupTitle": "Language",
     "sampleRequest": [
@@ -722,7 +722,7 @@
     "name": "GetLanguagePerl",
     "group": "Language",
     "version": "0.4.0",
-    "description": "<p>Test for Perl Comment-Syntax.</p> ",
+    "description": "Test for Perl Comment-Syntax.",
     "filename": "src/language.pm",
     "groupTitle": "Language",
     "sampleRequest": [
@@ -804,7 +804,7 @@
     "name": "GetLanguagePython",
     "group": "Language",
     "version": "0.4.0",
-    "description": "<p>Test for Python Comment-Syntax.</p> ",
+    "description": "Test for Python Comment-Syntax.",
     "filename": "src/language.py",
     "groupTitle": "Language",
     "sampleRequest": [
@@ -864,7 +864,7 @@
     "name": "GetLanguageRuby",
     "group": "Language",
     "version": "0.4.0",
-    "description": "<p>Test for Ruby Comment-Syntax.</p> ",
+    "description": "Test for Ruby Comment-Syntax.",
     "filename": "src/language.rb",
     "groupTitle": "Language",
     "sampleRequest": [
@@ -924,7 +924,7 @@
     "name": "GetMarkdown",
     "group": "Markdown",
     "version": "0.6.0",
-    "description": "<p>Enable markdown for all description fields.</p> <p>This <strong>text</strong> is in a <strong>separate</strong> p.</p> <ul> <li>List 1</li> <li>List 2</li> </ul> <p>Multiline markdown text, output in one line.</p> ",
+    "description": "Enable markdown for all description fields.</p> <p>This <strong>text</strong> is in a <strong>separate</strong> p.</p> <ul> <li>List 1</li> <li>List 2</li> </ul> <p>Multiline markdown text, output in one line.",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -933,7 +933,7 @@
             "type": "String",
             "optional": false,
             "field": "param1",
-            "description": "<p>This is a markdown <strong>apiParam</strong></p> <p>Separate line.</p> "
+            "description": "This is a markdown <strong>apiParam</strong></p> <p>Separate line."
           }
         ]
       }
@@ -953,7 +953,7 @@
     "name": "GetError",
     "group": "Param",
     "version": "0.1.0",
-    "description": "<p>Returned error parameters. Syntax is the same as for @apiParam</p> ",
+    "description": "Returned error parameters. Syntax is the same as for @apiParam",
     "error": {
       "fields": {
         "Error 4xx": [
@@ -961,13 +961,13 @@
             "group": "Error 4xx",
             "optional": false,
             "field": "error1Error",
-            "description": "<p>This is Error 1.</p> "
+            "description": "This is Error 1."
           },
           {
             "group": "Error 4xx",
             "optional": false,
             "field": "error2Error",
-            "description": "<p>This is Error 2.</p> "
+            "description": "This is Error 2."
           }
         ]
       }
@@ -987,7 +987,7 @@
     "name": "GetParam",
     "group": "Param",
     "version": "0.1.1",
-    "description": "<p>Parameters and different Versions: 0.1.1</p> ",
+    "description": "Parameters and different Versions: 0.1.1",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -995,7 +995,7 @@
             "group": "Parameter",
             "optional": false,
             "field": "param1",
-            "description": "<p>Parameter and description.</p> "
+            "description": "Parameter and description."
           },
           {
             "group": "Parameter",
@@ -1008,7 +1008,7 @@
             "optional": false,
             "field": "param3",
             "defaultValue": "Default Value",
-            "description": "<p>Parameter, default value and description.</p> "
+            "description": "Parameter, default value and description."
           },
           {
             "group": "Parameter",
@@ -1021,7 +1021,7 @@
             "group": "Parameter",
             "optional": true,
             "field": "param5",
-            "description": "<p>Optional parameter and description.</p> "
+            "description": "Optional parameter and description."
           },
           {
             "group": "Parameter",
@@ -1034,7 +1034,7 @@
             "optional": true,
             "field": "param7",
             "defaultValue": "Default Value",
-            "description": "<p>Optional parameter, default value and description.</p> "
+            "description": "Optional parameter, default value and description."
           },
           {
             "group": "Parameter",
@@ -1048,7 +1048,7 @@
             "type": "String",
             "optional": false,
             "field": "param9",
-            "description": "<p>Type, parameter and description.</p> "
+            "description": "Type, parameter and description."
           },
           {
             "group": "Parameter",
@@ -1063,7 +1063,7 @@
             "optional": false,
             "field": "param11",
             "defaultValue": "Default Value",
-            "description": "<p>Type, parameter and default value.</p> "
+            "description": "Type, parameter and default value."
           },
           {
             "group": "Parameter",
@@ -1078,7 +1078,7 @@
             "type": "String",
             "optional": true,
             "field": "param13",
-            "description": "<p>Type, optional parameter and description.</p> "
+            "description": "Type, optional parameter and description."
           },
           {
             "group": "Parameter",
@@ -1093,7 +1093,7 @@
             "optional": true,
             "field": "param15",
             "defaultValue": "Default Value",
-            "description": "<p>Type, optional parameter, default value and description.</p> "
+            "description": "Type, optional parameter, default value and description."
           },
           {
             "group": "Parameter",
@@ -1109,7 +1109,7 @@
             "size": "4,8",
             "optional": false,
             "field": "param17",
-            "description": "<p>Type, size, parameter and description.</p> "
+            "description": "Type, size, parameter and description."
           },
           {
             "group": "Parameter",
@@ -1117,7 +1117,7 @@
             "size": "1-3",
             "optional": false,
             "field": "param18",
-            "description": "<p>Type, size, parameter and description.</p> "
+            "description": "Type, size, parameter and description."
           },
           {
             "group": "Parameter",
@@ -1126,7 +1126,7 @@
             "optional": false,
             "field": "param19",
             "defaultValue": "Default Value",
-            "description": "<p>Type, size, parameter, default value and description.</p> "
+            "description": "Type, size, parameter, default value and description."
           },
           {
             "group": "Parameter",
@@ -1135,7 +1135,7 @@
             "optional": false,
             "field": "param20",
             "defaultValue": "1",
-            "description": "<p>Type, size, parameter, default value and description.</p> "
+            "description": "Type, size, parameter, default value and description."
           },
           {
             "group": "Parameter",
@@ -1145,7 +1145,7 @@
             ],
             "optional": false,
             "field": "param21",
-            "description": "<p>Type, parameter and allowed string value.</p> "
+            "description": "Type, parameter and allowed string value."
           },
           {
             "group": "Parameter",
@@ -1156,7 +1156,7 @@
             ],
             "optional": false,
             "field": "param22",
-            "description": "<p>Type, parameter and allowed list of string values.</p> "
+            "description": "Type, parameter and allowed list of string values."
           },
           {
             "group": "Parameter",
@@ -1166,7 +1166,7 @@
             ],
             "optional": false,
             "field": "param23",
-            "description": "<p>Type, parameter and allowed value.</p> "
+            "description": "Type, parameter and allowed value."
           },
           {
             "group": "Parameter",
@@ -1177,7 +1177,7 @@
             ],
             "optional": false,
             "field": "param24",
-            "description": "<p>Type, parameter and allowed list of values.</p> "
+            "description": "Type, parameter and allowed list of values."
           },
           {
             "group": "Parameter",
@@ -1188,7 +1188,7 @@
             ],
             "optional": false,
             "field": "param25",
-            "description": "<p>Type, size, parameter and allowed string value.</p> "
+            "description": "Type, size, parameter and allowed string value."
           },
           {
             "group": "Parameter",
@@ -1199,7 +1199,7 @@
             ],
             "optional": false,
             "field": "param27",
-            "description": "<p>Type, size, parameter and allowed value.</p> "
+            "description": "Type, size, parameter and allowed value."
           },
           {
             "group": "Parameter",
@@ -1211,14 +1211,14 @@
             ],
             "optional": false,
             "field": "param28",
-            "description": "<p>Type, size, parameter and allowed list of values.</p> "
+            "description": "Type, size, parameter and allowed list of values."
           },
           {
             "group": "Parameter",
             "type": "<a href=\"http://en.wikipedia.org/wiki/Data_type\">Custom</a>",
             "optional": false,
             "field": "param29",
-            "description": "<p>Type with markdown link.</p> "
+            "description": "Type with markdown link."
           }
         ]
       }
@@ -1238,7 +1238,7 @@
     "name": "GetParam",
     "group": "Param",
     "version": "0.1.0",
-    "description": "<p>Parameters and different Versions: 0.1.0</p> ",
+    "description": "Parameters and different Versions: 0.1.0",
     "parameter": {
       "fields": {
         "Parameter": [
@@ -1247,14 +1247,14 @@
             "type": "String",
             "optional": false,
             "field": "param0",
-            "description": "<p>This param is removed in 0.1.1.</p> "
+            "description": "This param is removed in 0.1.1."
           },
           {
             "group": "Parameter",
             "type": "String",
             "optional": false,
             "field": "param1",
-            "description": "<p>This is an old text.</p> "
+            "description": "This is an old text."
           },
           {
             "group": "Parameter",
@@ -1269,7 +1269,7 @@
             "optional": false,
             "field": "param3",
             "defaultValue": "Default Value",
-            "description": "<p>Parameter with type, description and default value.</p> "
+            "description": "Parameter with type, description and default value."
           },
           {
             "group": "Parameter",
@@ -1283,7 +1283,7 @@
             "group": "Parameter",
             "optional": false,
             "field": "param5",
-            "description": "<p>Basic Parameter with description.</p> "
+            "description": "Basic Parameter with description."
           },
           {
             "group": "Parameter",
@@ -1296,7 +1296,7 @@
             "optional": false,
             "field": "param7",
             "defaultValue": "Default Value",
-            "description": "<p>Basic Parameter with description and default value.</p> "
+            "description": "Basic Parameter with description and default value."
           },
           {
             "group": "Parameter",
@@ -1309,7 +1309,7 @@
             "group": "Parameter",
             "optional": true,
             "field": "param9",
-            "description": "<p>Optional basic Parameter with description.</p> "
+            "description": "Optional basic Parameter with description."
           },
           {
             "group": "Parameter",
@@ -1322,7 +1322,7 @@
             "optional": true,
             "field": "param11",
             "defaultValue": "Default Value",
-            "description": "<p>Optional basic Parameter with description and default value.</p> "
+            "description": "Optional basic Parameter with description and default value."
           },
           {
             "group": "Parameter",
@@ -1336,7 +1336,7 @@
             "type": "String",
             "optional": true,
             "field": "param13",
-            "description": "<p>Optional Parameter with type and description.</p> "
+            "description": "Optional Parameter with type and description."
           },
           {
             "group": "Parameter",
@@ -1351,7 +1351,7 @@
             "optional": true,
             "field": "param15",
             "defaultValue": "Default Value",
-            "description": "<p>Optional Parameter with type, description and default value.</p> "
+            "description": "Optional Parameter with type, description and default value."
           },
           {
             "group": "Parameter",
@@ -1379,7 +1379,7 @@
     "name": "GetParamExample",
     "group": "Param",
     "version": "0.8.0",
-    "description": "<p>Usage of @apiParamExample.</p> ",
+    "description": "Usage of @apiParamExample.",
     "examples": [
       {
         "title": "A common example:",
@@ -1395,7 +1395,7 @@
             "type": "String",
             "optional": false,
             "field": "name",
-            "description": "<p>Fullname.</p> "
+            "description": "Fullname."
           }
         ]
       },
@@ -1422,7 +1422,7 @@
     "name": "GetSuccess",
     "group": "Param",
     "version": "0.1.0",
-    "description": "<p>Returned success parameters. Syntax is the same as for @apiParam</p> ",
+    "description": "Returned success parameters. Syntax is the same as for @apiParam",
     "error": {
       "fields": {
         "Error 4xx": [
@@ -1430,13 +1430,13 @@
             "group": "Error 4xx",
             "optional": false,
             "field": "success1",
-            "description": "<p>This is Success 1.</p> "
+            "description": "This is Success 1."
           },
           {
             "group": "Error 4xx",
             "optional": false,
             "field": "success2",
-            "description": "<p>This is Success 2.</p> "
+            "description": "This is Success 2."
           }
         ]
       }
@@ -1456,12 +1456,12 @@
     "name": "GetPermission",
     "group": "Permission",
     "version": "0.8.0",
-    "description": "<p>@apiPermission test.</p> ",
+    "description": "@apiPermission test.",
     "permission": [
       {
         "name": "permission_admin",
         "title": "Admin access.",
-        "description": "<p>Some description.</p> "
+        "description": "Some description."
       }
     ],
     "filename": "src/api_permission.js",
@@ -1479,12 +1479,12 @@
     "name": "GetPermission",
     "group": "Permission",
     "version": "0.8.0",
-    "description": "<p>@apiPermission test.</p> ",
+    "description": "@apiPermission test.",
     "permission": [
       {
         "name": "permission_admin",
         "title": "Admin access.",
-        "description": "<p>Some description.</p> "
+        "description": "Some description."
       },
       {
         "name": "permission_user",
@@ -1505,7 +1505,7 @@
     "url": "/indent/trim/multi/spaces",
     "title": "Trim multi line (spaces)",
     "group": "indent",
-    "description": "<p>Text line 1 (Begin: 4xSpaces (3 removed)). Text line 2 (Begin: 3xSpaces (3 removed), End: 2xSpaces).</p> ",
+    "description": "Text line 1 (Begin: 4xSpaces (3 removed)). Text line 2 (Begin: 3xSpaces (3 removed), End: 2xSpaces).",
     "version": "0.0.0",
     "filename": "src/indent.js",
     "groupTitle": "Indent",
@@ -1521,7 +1521,7 @@
     "url": "/indent/trim/multi/tabs",
     "title": "Trim multi line (tabs)",
     "group": "indent",
-    "description": "<p>Text line 1 (Begin: 3xTab (2 removed)). Text line 2 (Begin: 2x Tab (2 removed), End: 1xTab).</p> ",
+    "description": "Text line 1 (Begin: 3xTab (2 removed)). Text line 2 (Begin: 2x Tab (2 removed), End: 1xTab).",
     "version": "0.0.0",
     "filename": "src/indent.js",
     "groupTitle": "Indent",
@@ -1537,7 +1537,7 @@
     "url": "/indent/trim/multi/tabs/and/space",
     "title": "Trim multi line (tabs and space)",
     "group": "indent",
-    "description": "<p>Text line 1 (Begin: 1xTab, 2xSpaces). Text line 2 (Begin: 3xSpaces, End: 1xTab).</p> ",
+    "description": "Text line 1 (Begin: 1xTab, 2xSpaces). Text line 2 (Begin: 3xSpaces, End: 1xTab).",
     "version": "0.0.0",
     "filename": "src/indent.js",
     "groupTitle": "Indent",
@@ -1553,7 +1553,7 @@
     "url": "/indent/trim/single",
     "title": "Trim single line",
     "group": "indent",
-    "description": "<p>Text line 1 (Begin: 3xSpaces (3 removed), End: 1xSpace).</p> ",
+    "description": "Text line 1 (Begin: 3xSpaces (3 removed), End: 1xSpace).",
     "version": "0.0.0",
     "filename": "src/indent.js",
     "groupTitle": "Indent",
@@ -1569,7 +1569,7 @@
     "url": "/indent/word",
     "title": "Indent a word",
     "group": "indent",
-    "description": "<p>text.</p> ",
+    "description": "text.",
     "version": "0.0.0",
     "filename": "src/indent.js",
     "groupTitle": "Indent",
